@@ -28,6 +28,11 @@ public class FoodOrderController {
 
         return "ready to place order1!!";
     }
+    @GetMapping("/msg1")
+    public String msg1() {
+
+        return "ready to place order1!!";
+    }
      //   uri
      //         method type  post/get/put/delete
      //       consumes = "JSON"
